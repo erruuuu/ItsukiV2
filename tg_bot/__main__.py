@@ -28,15 +28,19 @@ Kamu dapat menemukan daftar perintah yang tersedia dengan /help.
 BOT_IMAGE = "https://telegra.ph/file/041b4276db24fb594b059.jpg"
 
 HELP_STRINGS = """
-*Perintah dasar penggunaan:*
+*PERINTAH DASAR PENGGUNAAN*
 
+🍁 /help
+🍁 /help <cmd name>
+🍁 /donate
+🍁 /settings
 
+*Kamu dapat melihat daftar perintah yang tersedia dengan* /help
 
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """{0} doesn't currently need any donations.
-However you can donate to the creator of the original source code which {0} \
-is based on:- [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen).""".format(dispatcher.bot.first_name)
+DONATE_STRING = """Tidak membutuhkan donasi untuk saat ini, terima kasih.
+Jangan lupa join ke grup kami di [ANIME LOVERS INDO](t.me/grup_anime_indo)""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
